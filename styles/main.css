@@ -1,11 +1,12 @@
-h1 {
-    background-color: skyblue;
+h1{
+    color: darkgreen;
+    text-align: center;
 }
-
-a {
-    border-style: solid; border-color: navy; padding: 3px;
+h2{
+    border: 2px solid rgb(240, 171, 146);
+    text-align: center;
+    font-size: x-large;
 }
-
-body {
-    padding-top: 3.5rem;
+p{
+    text-align: center;
 }
