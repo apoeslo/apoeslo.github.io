@@ -1,33 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- Thank you to Yong Bakos - Oregon State Cascades -->
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Programs</title>
-    <style>
-        h1 {
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <h1>Python Programs</h1>
-    <h2>BMI Calculator</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/BMI-Calculator?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Gas Mileage Calculator</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Gas-Mileage-Calculator?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Number Averager</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Number-Averager?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Number Picker</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Number-Picker?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Winter Driving Predictor</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Winter-Driving-Predictor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Loan Payment Calculator</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Loan-Payment-Calculator?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Rock Paper Scissors</h2>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Rock-Paper-Scissors?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-    <h2>Mastermind</h2>
-        <p>This one took me a lot of time and a lot of effort. This version seems to run seemlessly, but let me know if you find any bugs!</p>
-        <iframe height="400px" width="100%" src="https://repl.it/@AllanSloan/Mastermind-80?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Python</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Your custom styles for this template -->
+    <link href="FIXME.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Python Programs</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-3">
+            <h2>BMI Calculator</h2>
+            <p><a class="btn btn-secondary" href="bmi_calc/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-3">
+            <h2>Gas Mileage Calculator</h2>
+            <p><a class="btn btn-secondary" href="gas_mileage/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-3">
+            <h2>Number Averager</h2>
+            <p><a class="btn btn-secondary" href="number_avg/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+          </div>
+
+          <div class="col-md-3">
+            <h2>Number Picker</h2>
+            <p><a class="btn btn-secondary" href="number_picker/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+              <h2>Winter Driving Predictor</h2>
+              <p><a class="btn btn-secondary" href="wpd/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+            </div>
+            
+            <div class="col-md-3">
+              <h2>Loan Payment Calculator</h2>
+              <p><a class="btn btn-secondary" href="lpc/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+            </div>
+            
+            <div class="col-md-3">
+              <h2>Rock Paper Scissors</h2>
+              <p><a class="btn btn-secondary" href="rps/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+            </div>
+  
+            <div class="col-md-3">
+              <h2>Mastermind</h2>
+              <p>This one took me a lot of time and a lot of effort. This version seems to run seemlessly, but let me know if you find any bugs!</p>
+              <p><a class="btn btn-secondary" href="mastermind/index.html" role="button" target="_blank">Run Program &raquo;</a></p>
+            </div>
+          </div>
+
+        <hr>
+        
+        Allan Sloan, CS 160
+
+      </div> <!-- /container -->
+      
+    </main>
+
+    <footer class="container">
+      <p>&copy; COCC 2019-2020</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
